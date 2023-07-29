@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px dotted black;
+}
+
+* div{
+    background: #ccc;
+}
+
+body{
+    display: grid;
+    grid-template-rows: 15% 15% 15% 1fr 15%;
+    grid-row-gap: 10px;
+    height: 100vh;
+}
+
+.header, .banner, .intro, .footer{
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+}

@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 1px dotted black;
+}
+
+* div {
+  background: #ccc;
+}
+
+.header, .banner, .intro, .footer {
+  height: 50px;
+}
+
+.content {
+  height: 70vh;
+  display: flex;
+}
+
+.sidebar {
+  width: 30%;
+}
+
+.main-content {
+  flex: 1;
+}
+.main-content .banner {
+  height: 30%;
+}
+.main-content .hero {
+  height: 70%;
+}/*# sourceMappingURL=layout4.css.map */

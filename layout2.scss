@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px dotted black;
+}
+
+.header{
+    height: 50px;
+}
+
+.nav{
+    height: 50px;
+}
+
+.banner{
+    height: 100px;
+}
+
+.content{
+    height: 300px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-column-gap: 10px;
+}
+
+.footer{
+    height: 50px;
+}

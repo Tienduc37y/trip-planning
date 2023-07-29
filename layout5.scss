@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px dotted black;
+}
+
+* div{
+    background: #ccc;
+    margin: 10px 0;
+}
+
+.header, .banner, .intro, .footer{
+    height: 50px;
+}
+
+.content{
+    height: 60vh;
+    display: grid;
+    grid-template: repeat(4, 1fr) / repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+.content-2{
+    height: 30vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
