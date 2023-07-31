@@ -7,7 +7,7 @@
 
 * div{
     background: #ccc;
-    margin: 10px 0;
+    margin: 5px 0;
 }
 
 .header, .banner, .intro, .footer{
@@ -18,7 +18,7 @@
     height: 60vh;
     display: grid;
     grid-template: repeat(4, 1fr) / repeat(4, 1fr);
-    grid-gap: 20px;
+    grid-gap: 10px;
 }
 
 .content-2{
@@ -27,3 +27,8 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 10px;
 }
+
+.item{
+    min-height: 20px;
+}
+@import 'responsive.scss';

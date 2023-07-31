@@ -17,7 +17,7 @@
   height: 100px;
 }
 
-.content {
+.content, .grid {
   height: 300px;
   display: grid;
   grid-template-columns: 30% 70%;
@@ -26,4 +26,19 @@
 
 .footer {
   height: 50px;
+}
+
+@media screen and (max-width: 600px) {
+  .content, .grid {
+    flex-wrap: wrap;
+    grid-template-columns: 100%;
+    height: auto;
+  }
+  .content div, .grid div {
+    width: 100%;
+    flex: unset !important;
+  }
+}
+.grid {
+  grid-template-rows: auto;
 }/*# sourceMappingURL=layout2.css.map */

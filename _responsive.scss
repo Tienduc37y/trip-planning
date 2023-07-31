@@ -1,0 +1,17 @@
+@media screen and (max-width: 600px) {
+    .content{
+        flex-wrap: wrap;
+        grid-template-columns: 100%;
+        height: auto;
+    }
+    
+    .content div{
+        width: 100%;
+        flex: unset !important;
+    }
+}
+
+.grid {
+    @extend .content;
+    grid-template-rows: auto;
+}

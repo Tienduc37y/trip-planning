@@ -16,8 +16,23 @@ body {
   height: 100vh;
 }
 
-.content {
+.content, .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-column-gap: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .content, .grid {
+    flex-wrap: wrap;
+    grid-template-columns: 100%;
+    height: auto;
+  }
+  .content div, .grid div {
+    width: 100%;
+    flex: unset !important;
+  }
+}
+.grid {
+  grid-template-rows: auto;
 }/*# sourceMappingURL=layout3.css.map */
