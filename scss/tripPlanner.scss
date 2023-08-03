@@ -1,0 +1,87 @@
+@import "variable.scss";
+
+:root{
+    --primary: #{$primary};
+    --dark: #{$dark};
+    --success: #{$success};
+    --error: #FF6370;
+    font-family: 'Inter';
+    font-weight: 400;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+[data-bs-theme=light]{
+    p,span,h1,h2,h3,h4{
+        color: #353945;
+    }
+}
+
+[data-bs-theme=dark]{
+    p,span,h1,h2,h3,h4{
+        color: #E6E8EC;
+    }
+}
+
+.hero-title{
+    font-size: 64px;
+    font-weight: 800;
+}
+
+h1{
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: 700;
+}
+
+h2{
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 600;
+}
+
+h3{
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 500;
+}
+
+h4{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 500;
+}
+
+.t-18{
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.t-16{
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.t-14{
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.t-12{
+    font-size: 12px;
+    line-height: 18px;
+}
+.fw-500{
+    font-weight: 500;
+}
+.fw-600{
+    font-weight: 600;
+}
+.fw-700{
+    font-weight: 700;
+}
+.fw-800{
+    font-weight: 800;
+}
