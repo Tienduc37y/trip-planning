@@ -23,68 +23,60 @@
         color: #E6E8EC;
     }
 }
-
-.hero-title{
-    font-size: 64px;
-    font-weight: 800;
+@mixin createFont($selector, $fz: null, $lineHeight: null, $fw: null){
+    #{$selector}{
+        @if $fz{font-size: $fz;}
+        @if $lineHeight{line-height: $lineHeight;}
+        @if $fw{font-weight: $fw;}
+    }
 }
 
-h1{
-    font-size: 40px;
-    line-height: 60px;
-    font-weight: 700;
+@include createFont('.hero-title', 64px, null, 800);
+@include createFont('h1', 40px, 60px, 700);
+@include createFont('h2', 30px, 45px, 600);
+@include createFont('h3', 24px, 36px, 500);
+@include createFont('h4', 20px, 28px, 500);
+@include createFont('.t-18', 18px, 32px, null);
+@include createFont('.t-16', 16px, 24px, null);
+@include createFont('.t-14', 14px, 20px, null);
+@include createFont('.t-12', 12px, 18px, null);
+@include createFont('.fw-500', null, null, 500);
+@include createFont('.fw-600', null, null, 600);
+@include createFont('.fw-700', null, null, 700);
+@include createFont('.fw-800', null, null, 800);
+
+@mixin createUltil($prefix, $prop, $val){
+    #{$prefix}-#{$val} {
+        #{$prop}: #{$val}px;
+      }
+      #{$prefix}l-#{$val} {
+          #{$prop}-left: #{$val}px;
+      }
+      #{$prefix}r-#{$val} {
+          #{$prop}-right: #{$val}px;
+      }
+      #{$prefix}t-#{$val} {
+          #{$prop}-top: #{$val}px;
+      }
+      #{$prefix}b-#{$val} {
+          #{$prop}-bottom: #{$val}px;
+      }
+      #{$prefix}x-#{$val} {
+          #{$prop}-left: #{$val}px;
+          #{$prop}-right: #{$val}px;
+      }
+      #{$prefix}y-#{$val} {
+          #{$prop}-top: #{$val}px;
+          #{$prop}-bottom: #{$val}px;
+      }
 }
 
-h2{
-    font-size: 30px;
-    line-height: 45px;
-    font-weight: 600;
+@for $i from 1 through 20 {
+    $val: $i * 5;
+    @include createUltil('.p', 'padding', $val);
+    @include createUltil('.m', 'margin', $val);
 }
-
-h3{
-    font-size: 24px;
-    line-height: 36px;
-    font-weight: 500;
-}
-
-h4{
-    font-size: 20px;
-    line-height: 28px;
-    font-weight: 500;
-}
-
-.t-18{
-    font-size: 18px;
-    line-height: 32px;
-}
-
-.t-16{
-    font-size: 16px;
-    line-height: 24px;
-}
-
-.t-14{
-    font-size: 14px;
-    line-height: 20px;
-}
-
-.t-12{
-    font-size: 12px;
-    line-height: 18px;
-}
-.fw-500{
-    font-weight: 500;
-}
-.fw-600{
-    font-weight: 600;
-}
-.fw-700{
-    font-weight: 700;
-}
-.fw-800{
-    font-weight: 800;
-}
-
+  
 .center-center{
     display: flex;
     justify-content: center;
