@@ -1,5 +1,4 @@
 @import "variable.scss";
-
 :root{
     --primary: #{$primary};
     --dark: #{$dark};
@@ -7,10 +6,10 @@
     --error: #FF6370;
     font-family: 'Inter';
     font-weight: 400;
-}
-
-*{
-    box-sizing: border-box;
+    p,span,h1,h2,h3,h4,a{
+        text-decoration: none;
+        margin: 0;
+    }
 }
 
 [data-bs-theme=light]{
@@ -84,4 +83,64 @@ h4{
 }
 .fw-800{
     font-weight: 800;
+}
+
+.center-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+// common
+
+.nodemy{
+    .navbar{
+        padding: 30px 60px;
+        .logo{
+            padding: 8px 10px;
+            background: var(--primary);
+            border-radius: 12px;
+            svg{
+                fill: white;
+            }
+        }
+        .info{
+            * {margin: 0 5px}
+           
+            .avatar{
+                width: 33px;
+                height: 33px;
+            }
+        }
+    }
+}
+
+// mobile
+@media screen and (max-width: 576px) {
+    .nodemy{
+        .navbar{
+            padding: 10px;
+            #navbarSupportedContent{
+                order: 1;
+                width: 100%;
+                background: white;
+                left: 0;
+                top: 100%;
+                position: absolute;
+                padding: 0 22px;
+            }
+
+            button.navbar-toggler{
+                font-size: 14px;
+                padding: 10px;
+            }
+        }
+        
+    }
 }
