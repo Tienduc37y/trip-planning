@@ -1,0 +1,77 @@
+.nodemy{
+    .navbar{
+        padding: 30px 60px;
+        .logo{
+            padding: 8px 10px;
+            background: var(--primary);
+            border-radius: 12px;
+            svg{
+                fill: white;
+            }
+        }
+        .info{
+            * {margin: 0 5px}
+           
+            .avatar{
+                width: 33px;
+                height: 33px;
+            }
+        }
+    }
+
+    .content{
+        .left-content{
+            position: relative;
+            padding-left: 135px;
+            .hero-title+p{
+                width: 455px;
+                margin-top: 30px !important;
+            }
+            button{
+                width: 265px;
+                height: 52px;
+                border-radius: 31px;
+                padding: 8px 8px 8px 44px;
+                i{
+                    background: var(--primary);
+                    width: 36px;
+                    height: 36px;
+                    border-radius: 50%;
+                    color: white;
+                }
+            }
+            .review{
+                width: 280px;
+                height: 95px;
+                .star{
+                    i{
+                        color: #FFC83A;
+                    }
+                }
+                .score{
+                    h3{color: var(--primary);}
+                }
+            }
+            .eliment{
+                position: absolute;
+                left: 0;
+                bottom: 150px;
+                transform: rotate(-19.16deg);
+            }
+        }
+        .right-content{
+            position: relative;
+            height: 645px;
+            .hero{
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+}
