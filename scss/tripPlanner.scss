@@ -111,6 +111,48 @@
             }
         }
     }
+
+    .content{
+        .left-content{
+            position: relative;
+            padding-left: 135px;
+            .hero-title+p{
+                width: 455px;
+                margin-top: 30px !important;
+            }
+            button{
+                width: 265px;
+                height: 52px;
+                border-radius: 31px;
+                padding: 8px 8px 8px 44px;
+                i{
+                    background: var(--primary);
+                    width: 36px;
+                    height: 36px;
+                    border-radius: 50%;
+                    color: white;
+                }
+            }
+            .review{
+                width: 280px;
+                height: 95px;
+                .star{
+                    i{
+                        color: #FFC83A;
+                    }
+                }
+                .score{
+                    h3{color: var(--primary);}
+                }
+            }
+            .eliment{
+                position: absolute;
+                left: 0;
+                bottom: 60px;
+                transform: rotate(-19.16deg);
+            }
+        }
+    }
 }
 
 // mobile
