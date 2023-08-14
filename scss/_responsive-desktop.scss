@@ -74,4 +74,11 @@
             }
         }
     }
+    .partner{
+        height: 168px;
+        background: #F4F5F9;
+        img:not(:last-child){
+            margin-right: 40px;
+        }
+    }
 }
