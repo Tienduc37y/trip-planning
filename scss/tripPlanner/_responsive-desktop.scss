@@ -81,4 +81,29 @@
             margin-right: 40px;
         }
     }
+    .trip-planning{
+        height: 574px;
+        flex-direction: column;
+        .title{
+            text-align: center;
+        }
+        .card-item{
+            width: 272px;
+            height: 236px;
+            padding: 21px 36px;
+            flex-direction: column;
+            text-align: center;
+            background: #EEF9F2;
+            margin: 0 15px;
+            border-radius: 12px;
+            &>i{
+                width: 48px;
+                height: 48px;
+                background: #58C27D;
+                color: white;
+                border-radius: 50%;
+                font-size: 25px;
+            }
+        }
+    }
 }
