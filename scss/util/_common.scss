@@ -46,27 +46,27 @@
 
 @mixin createUltil($prefix, $prop, $val){
     #{$prefix}-#{$val} {
-        #{$prop}: #{$val}px;
+        #{$prop}: #{$val}px !important;
       }
       #{$prefix}l-#{$val} {
-          #{$prop}-left: #{$val}px;
+          #{$prop}-left: #{$val}px !important;
       }
       #{$prefix}r-#{$val} {
-          #{$prop}-right: #{$val}px;
+          #{$prop}-right: #{$val}px !important;
       }
       #{$prefix}t-#{$val} {
-          #{$prop}-top: #{$val}px;
+          #{$prop}-top: #{$val}px !important;
       }
       #{$prefix}b-#{$val} {
-          #{$prop}-bottom: #{$val}px;
+          #{$prop}-bottom: #{$val}px !important;
       }
       #{$prefix}x-#{$val} {
-          #{$prop}-left: #{$val}px;
-          #{$prop}-right: #{$val}px;
+          #{$prop}-left: #{$val}px !important;
+          #{$prop}-right: #{$val}px !important;
       }
       #{$prefix}y-#{$val} {
-          #{$prop}-top: #{$val}px;
-          #{$prop}-bottom: #{$val}px;
+          #{$prop}-top: #{$val}px !important;
+          #{$prop}-bottom: #{$val}px !important;
       }
 }
 
