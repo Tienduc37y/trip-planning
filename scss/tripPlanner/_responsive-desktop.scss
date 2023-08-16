@@ -106,8 +106,26 @@
             }
         }
     }
+    .list{
+        .list-item{
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+           &::before{
+                content: url('../../image/createTrip/Ellipse-2220.svg');
+                width: 20px;
+                height: 20px;
+                margin-right: 18px;
+                display: inline-block;
+           }
+           &+.sub{
+            margin-left: 38px;
+           }
+        }
+    }
     .book-steps{
         .create-trip{
+            margin-right: 100px;
             border-radius: 39px;
             background: #FEE2B6;
             .your-trip{
@@ -125,23 +143,7 @@
                         width: 250px;
                         height: 38px;
                     }
-                    .list{
-                        .list-item{
-                            margin-top: 20px;
-                            display: flex;
-                            align-items: center;
-                           &::before{
-                                content: url('../../image/createTrip/Ellipse-2220.svg');
-                                width: 20px;
-                                height: 20px;
-                                margin-right: 18px;
-                                display: inline-block;
-                           }
-                           &+.sub{
-                            margin-left: 38px;
-                           }
-                        }
-                    }
+                    
                 }
                 &>div:nth-child(2){
                     background: white;
@@ -150,6 +152,29 @@
                         font-size: 14px;
                     }
                 }
+            }
+            .book-content{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+        }
+        .book-content{
+            width: 538px;
+            .list{
+                .list-item{
+                   &::before{
+                        content: url('../../image/createTrip/Ellipse-2220-xanh.svg');
+                   }
+                }
+                padding-bottom: 26px;
+                border-bottom: 1px dashed #777E90;
+                &+p{
+                    font-style: italic;
+                }
+            }
+            .profile{
+                display: flex;
             }
         }
     }
