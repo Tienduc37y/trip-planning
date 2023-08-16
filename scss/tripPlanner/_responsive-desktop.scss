@@ -161,6 +161,9 @@
         }
         .book-content{
             width: 538px;
+            h1{
+                margin-bottom: 25px;
+            }
             .list{
                 .list-item{
                    &::before{

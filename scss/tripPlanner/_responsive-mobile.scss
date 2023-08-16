@@ -80,5 +80,23 @@
                 overflow: scroll;
             }            
         }
+        .book-steps{
+            flex-wrap: wrap;
+            .create-trip{
+                width: 100%;
+                margin: 0 20px;
+                padding: 20px;
+                .your-trip{
+                    &>div:nth-child(1){
+                        width: auto;
+                        padding-left: 25px;
+                        padding-right: 25px;
+                    }
+                }
+            }
+            .book-content{
+                padding: 20px;
+            }
+        }
     }
 }
