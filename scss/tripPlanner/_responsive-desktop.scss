@@ -217,6 +217,17 @@
         }
         .easy-card{
             width: 374px;
+            padding: 31px 24px 29px 24px;
+            background: white;
+            border-radius: 30px;
+            background: white;
+            box-shadow: 0px 14px 40px -15px rgba(15, 15, 15, 0.08);
+            .info{
+                justify-content: flex-start;
+                img{
+                    margin-right: 17px;
+                }
+            }
         }
     }
 }
