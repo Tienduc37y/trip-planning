@@ -39,6 +39,7 @@
 @include createFont('.t-16', 16px, 24px, null);
 @include createFont('.t-14', 14px, 20px, null);
 @include createFont('.t-12', 12px, 18px, null);
+@include createFont('.fw-400', null, null, 400);
 @include createFont('.fw-500', null, null, 500);
 @include createFont('.fw-600', null, null, 600);
 @include createFont('.fw-700', null, null, 700);
@@ -87,5 +88,12 @@
     justify-content: space-between;
     align-items: center;
 }
+
+.column-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 
 // common

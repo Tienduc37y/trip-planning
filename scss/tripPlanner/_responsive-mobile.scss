@@ -81,6 +81,7 @@
             }            
         }
         .book-steps{
+            padding: 30px 0;
             flex-wrap: wrap;
             .create-trip{
                 width: 100%;
@@ -96,6 +97,32 @@
             }
             .book-content{
                 padding: 20px;
+            }
+        }
+        .ez-trip{
+            padding: 30px 0;
+            flex-wrap: wrap;
+            .easy-trip{
+                order: 1;
+                width: 100%;
+                margin-right: unset;
+                &>h1{
+                    font-size: 24px;
+                    line-height: 36px;
+                    padding: 0 20px;
+                }
+                &>p{
+                    font-size: 12px;
+                    padding: 0 20px;
+                    margin-top: 14px;
+                }
+                &>div{
+                    margin-top: 20px;
+                    overflow: scroll;
+                }
+            }
+            .easy-card{
+                width: 100%;
             }
         }
     }
