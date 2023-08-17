@@ -1,4 +1,9 @@
 .nodemy{
+    .container{
+        width: 1170px;
+        display: flex;
+        padding: 0;
+    }
     .card-column{
         min-width: 175px;
         display: flex;
@@ -106,8 +111,10 @@
         }
     }
     .trip-planning{
-        height: 574px;
-        flex-direction: column;
+        .container{
+            flex-direction: column;
+            height: 574px;
+        }
         .title{
             text-align: center;
         }

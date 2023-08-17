@@ -1,6 +1,11 @@
 // mobile
 @media screen and (max-width: 576px) {
     .nodemy{
+        .container{
+            width: 100%;
+            flex-wrap: wrap;
+            padding: 0 20px;
+        }
         .navbar{
             padding: 10px;
             #navbarSupportedContent{
@@ -59,7 +64,10 @@
             justify-content: flex-start;
         }
         .trip-planning{
-            height: 402px;
+            .container{
+                height: 402px;
+                flex-wrap: nowrap;
+            }
             .title{
                 h1{
                     margin-top: 30px;
@@ -85,7 +93,7 @@
             flex-wrap: wrap;
             .create-trip{
                 width: 100%;
-                margin: 0 20px;
+                margin: 0;
                 padding: 20px;
                 .your-trip{
                     &>div:nth-child(1){
@@ -96,12 +104,11 @@
                 }
             }
             .book-content{
-                padding: 20px;
+                padding: 20px 0;
             }
         }
         .ez-trip{
             padding: 30px 0;
-            flex-wrap: wrap;
             .easy-trip{
                 order: 1;
                 width: 100%;
@@ -109,11 +116,9 @@
                 &>h1{
                     font-size: 24px;
                     line-height: 36px;
-                    padding: 0 20px;
                 }
                 &>p{
                     font-size: 12px;
-                    padding: 0 20px;
                     margin-top: 14px;
                 }
                 &>div{
@@ -123,7 +128,7 @@
             }
             .easy-card{
                 width: 100%;
-                margin: 0 20px 20px 20px;
+                margin-bottom: 20px;
             }
         }
     }
