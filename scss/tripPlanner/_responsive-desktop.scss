@@ -2,7 +2,7 @@
     .container{
         width: 1170px;
         display: flex;
-        padding: 0;
+        padding: 70px 0;
     }
     .card-column{
         min-width: 175px;
@@ -111,10 +111,9 @@
         }
     }
     .trip-planning{
-        .container{
-            flex-direction: column;
-            height: 574px;
-        }
+        flex-direction: column;
+        height: 574px;
+        
         .title{
             text-align: center;
         }
@@ -155,7 +154,6 @@
         }
     }
     .book-steps{
-        padding: 70px 0;
         .create-trip{
             margin-right: 100px;
             border-radius: 39px;
