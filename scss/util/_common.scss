@@ -77,6 +77,19 @@
     @include createUltil('.m', 'margin', $val);
 }
   
+@mixin shape($width, $height, $radius){
+    width: $width;
+    min-width: $width;
+    @if $height{
+        height: $height;
+        min-height: $height;
+    }
+    border-radius: $radius;
+}
+
+@mixin circle($width){
+    @include shape($width, $width, 50%);
+}
 .center-center{
     display: flex;
     justify-content: center;

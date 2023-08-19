@@ -235,4 +235,23 @@
             }
         }
     }
+    .how-work{
+        .block-left{
+            width: 646px;
+            img{
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+        .block-right{
+            width: 433px;
+            i{
+                @include circle(60px);
+                color: var(--primary);
+                font-size: 24px;
+                box-shadow: 0px 20px 80px 0px rgba(0, 0, 0, 0.12);
+                align-self: flex-start;
+            }
+        }
+    }
 }

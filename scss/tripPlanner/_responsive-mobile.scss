@@ -126,5 +126,21 @@
                 margin-bottom: 20px;
             }
         }
+        .how-work{
+            .block-right{
+                .mt-25{
+                    margin-top: 14px;
+                }
+                .mt-40{
+                    margin-top: 26px;
+                }
+                .ml-25{
+                    margin-left: 18px;
+                }
+                i{
+                    @include circle(45px);
+                }
+            }
+        }
     }
 }
