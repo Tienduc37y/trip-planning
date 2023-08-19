@@ -254,4 +254,28 @@
             }
         }
     }
+    .service{
+        background: var(--primary);
+        .container{
+            width: 1029px;
+            &>h1, &>div:nth-child(2)>p{
+                text-align: center;
+                color: white;
+            }
+            
+            .card-column{
+                min-width: 231px;
+                align-items: center;
+                padding: 25px 28px 15px 28px;
+                i{
+                    color: white;
+                    font-size: 24px;
+                    background: var(--primary);
+                    width: 44px;
+                    height: 44px;
+                    border-radius: 6px;
+                }
+            }
+        }
+    }
 }

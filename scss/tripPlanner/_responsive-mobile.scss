@@ -142,5 +142,24 @@
                 }
             }
         }
+        .service{
+            .container{
+                width: 100%;
+                h1{
+                    font-size: 30px;
+                }
+                &>p{
+                    font-size: 12px;
+                }
+                .list-card{
+                    margin: 0;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    .card-column{
+                        margin-top: 24px;
+                    }
+                }
+            }
+        }
     }
 }
