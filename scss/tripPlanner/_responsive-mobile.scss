@@ -164,5 +164,75 @@
                 }
             }
         }
+        .trip-plan {
+            .container {
+                padding: 24px 20px 0 20px;
+                .left-tripplan{
+                    margin-bottom: 43px;
+                    h1 {
+                        font-size: 24px;
+                        line-height: 42px;
+                    }
+                    div.t-18 {
+                        font-size: 10px;
+                        margin: 10px 0;
+                        line-height: 20px;
+                    }
+                }
+            }
+        }
+        .footer {
+            .container {
+                margin-top: 0;
+                margin-bottom: 0;
+                width: 90%;
+                padding: 30px 24px;
+                hr {
+                    display: none;
+                }
+                .left-footer{
+
+                    
+                    width: 100%;
+                    padding-bottom: 0;
+                    .search-input {
+                        display: none;
+                    }
+                div.t-16 {
+                        width: 268px;
+                        margin: 24px 0;
+                    }
+                }
+                .services-footer {
+                    width: 100%;
+                    order: 2;
+                    padding-top: 24px;
+                    padding-bottom: 30px;
+                }
+                .support {
+                    width: 100%;
+                    order: 3;
+                    padding-bottom: 30px;
+                }
+                .business {
+                    width: 100%;
+                    order: 4;
+                    padding-bottom: 40px;
+                }
+                .copyright {
+                    margin: 0;
+                    order: 6;
+                }
+                .social {
+                    order: 1;
+                    padding: 0;
+                }
+                .input-email {
+                    width: 80%;
+                    display: block;
+                    order: 5;
+                }
+            }
+        }
     }
 }
