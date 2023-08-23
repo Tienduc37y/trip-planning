@@ -1,0 +1,1970 @@
+:root {
+  --primary: #3B71FE;
+  --dark: #141416;
+  --success: #58C27D;
+  --error: #FF6370;
+  font-family: "Inter";
+  font-weight: 400;
+}
+:root p, :root span, :root h1, :root h2, :root h3, :root h4, :root a {
+  text-decoration: none;
+  margin: 0;
+}
+
+[data-bs-theme=light] p, [data-bs-theme=light] span, [data-bs-theme=light] h1, [data-bs-theme=light] h2, [data-bs-theme=light] h3, [data-bs-theme=light] h4 {
+  color: #353945;
+}
+
+[data-bs-theme=dark] p, [data-bs-theme=dark] span, [data-bs-theme=dark] h1, [data-bs-theme=dark] h2, [data-bs-theme=dark] h3, [data-bs-theme=dark] h4 {
+  color: #E6E8EC;
+}
+
+.hero-title {
+  font-size: 64px;
+  font-weight: 800;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 60px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 30px;
+  line-height: 45px;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 500;
+}
+
+h4 {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 500;
+}
+
+.t-18 {
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.t-16 {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.t-14 {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.t-12 {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.fw-400 {
+  font-weight: 400;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+.fw-800 {
+  font-weight: 800;
+}
+
+.p-5 {
+  padding: 5px;
+}
+
+.pl-5 {
+  padding-left: 5px;
+}
+
+.pr-5 {
+  padding-right: 5px;
+}
+
+.pt-5 {
+  padding-top: 5px;
+}
+
+.pb-5 {
+  padding-bottom: 5px;
+}
+
+.px-5 {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.py-5 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.m-5 {
+  margin: 5px;
+}
+
+.ml-5 {
+  margin-left: 5px;
+}
+
+.mr-5 {
+  margin-right: 5px;
+}
+
+.mt-5 {
+  margin-top: 5px;
+}
+
+.mb-5 {
+  margin-bottom: 5px;
+}
+
+.mx-5 {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.my-5 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.p-10 {
+  padding: 10px;
+}
+
+.pl-10 {
+  padding-left: 10px;
+}
+
+.pr-10 {
+  padding-right: 10px;
+}
+
+.pt-10 {
+  padding-top: 10px;
+}
+
+.pb-10 {
+  padding-bottom: 10px;
+}
+
+.px-10 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.py-10 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.m-10 {
+  margin: 10px;
+}
+
+.ml-10 {
+  margin-left: 10px;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mx-10 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.my-10 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.p-15 {
+  padding: 15px;
+}
+
+.pl-15 {
+  padding-left: 15px;
+}
+
+.pr-15 {
+  padding-right: 15px;
+}
+
+.pt-15 {
+  padding-top: 15px;
+}
+
+.pb-15 {
+  padding-bottom: 15px;
+}
+
+.px-15 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.py-15 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.m-15 {
+  margin: 15px;
+}
+
+.ml-15 {
+  margin-left: 15px;
+}
+
+.mr-15 {
+  margin-right: 15px;
+}
+
+.mt-15 {
+  margin-top: 15px;
+}
+
+.mb-15 {
+  margin-bottom: 15px;
+}
+
+.mx-15 {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.my-15 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.p-20 {
+  padding: 20px;
+}
+
+.pl-20 {
+  padding-left: 20px;
+}
+
+.pr-20 {
+  padding-right: 20px;
+}
+
+.pt-20 {
+  padding-top: 20px;
+}
+
+.pb-20 {
+  padding-bottom: 20px;
+}
+
+.px-20 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.py-20 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.m-20 {
+  margin: 20px;
+}
+
+.ml-20 {
+  margin-left: 20px;
+}
+
+.mr-20 {
+  margin-right: 20px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mx-20 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.my-20 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.p-25 {
+  padding: 25px;
+}
+
+.pl-25 {
+  padding-left: 25px;
+}
+
+.pr-25 {
+  padding-right: 25px;
+}
+
+.pt-25 {
+  padding-top: 25px;
+}
+
+.pb-25 {
+  padding-bottom: 25px;
+}
+
+.px-25 {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.py-25 {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.m-25 {
+  margin: 25px;
+}
+
+.ml-25 {
+  margin-left: 25px;
+}
+
+.mr-25 {
+  margin-right: 25px;
+}
+
+.mt-25 {
+  margin-top: 25px;
+}
+
+.mb-25 {
+  margin-bottom: 25px;
+}
+
+.mx-25 {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.my-25 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.p-30 {
+  padding: 30px;
+}
+
+.pl-30 {
+  padding-left: 30px;
+}
+
+.pr-30 {
+  padding-right: 30px;
+}
+
+.pt-30 {
+  padding-top: 30px;
+}
+
+.pb-30 {
+  padding-bottom: 30px;
+}
+
+.px-30 {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.py-30 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.m-30 {
+  margin: 30px;
+}
+
+.ml-30 {
+  margin-left: 30px;
+}
+
+.mr-30 {
+  margin-right: 30px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mx-30 {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.my-30 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.p-35 {
+  padding: 35px;
+}
+
+.pl-35 {
+  padding-left: 35px;
+}
+
+.pr-35 {
+  padding-right: 35px;
+}
+
+.pt-35 {
+  padding-top: 35px;
+}
+
+.pb-35 {
+  padding-bottom: 35px;
+}
+
+.px-35 {
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.py-35 {
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.m-35 {
+  margin: 35px;
+}
+
+.ml-35 {
+  margin-left: 35px;
+}
+
+.mr-35 {
+  margin-right: 35px;
+}
+
+.mt-35 {
+  margin-top: 35px;
+}
+
+.mb-35 {
+  margin-bottom: 35px;
+}
+
+.mx-35 {
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+.my-35 {
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.p-40 {
+  padding: 40px;
+}
+
+.pl-40 {
+  padding-left: 40px;
+}
+
+.pr-40 {
+  padding-right: 40px;
+}
+
+.pt-40 {
+  padding-top: 40px;
+}
+
+.pb-40 {
+  padding-bottom: 40px;
+}
+
+.px-40 {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.py-40 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.m-40 {
+  margin: 40px;
+}
+
+.ml-40 {
+  margin-left: 40px;
+}
+
+.mr-40 {
+  margin-right: 40px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.mx-40 {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.my-40 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.p-45 {
+  padding: 45px;
+}
+
+.pl-45 {
+  padding-left: 45px;
+}
+
+.pr-45 {
+  padding-right: 45px;
+}
+
+.pt-45 {
+  padding-top: 45px;
+}
+
+.pb-45 {
+  padding-bottom: 45px;
+}
+
+.px-45 {
+  padding-left: 45px;
+  padding-right: 45px;
+}
+
+.py-45 {
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+.m-45 {
+  margin: 45px;
+}
+
+.ml-45 {
+  margin-left: 45px;
+}
+
+.mr-45 {
+  margin-right: 45px;
+}
+
+.mt-45 {
+  margin-top: 45px;
+}
+
+.mb-45 {
+  margin-bottom: 45px;
+}
+
+.mx-45 {
+  margin-left: 45px;
+  margin-right: 45px;
+}
+
+.my-45 {
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+
+.p-50 {
+  padding: 50px;
+}
+
+.pl-50 {
+  padding-left: 50px;
+}
+
+.pr-50 {
+  padding-right: 50px;
+}
+
+.pt-50 {
+  padding-top: 50px;
+}
+
+.pb-50 {
+  padding-bottom: 50px;
+}
+
+.px-50 {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.py-50 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.m-50 {
+  margin: 50px;
+}
+
+.ml-50 {
+  margin-left: 50px;
+}
+
+.mr-50 {
+  margin-right: 50px;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.mx-50 {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.my-50 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.p-55 {
+  padding: 55px;
+}
+
+.pl-55 {
+  padding-left: 55px;
+}
+
+.pr-55 {
+  padding-right: 55px;
+}
+
+.pt-55 {
+  padding-top: 55px;
+}
+
+.pb-55 {
+  padding-bottom: 55px;
+}
+
+.px-55 {
+  padding-left: 55px;
+  padding-right: 55px;
+}
+
+.py-55 {
+  padding-top: 55px;
+  padding-bottom: 55px;
+}
+
+.m-55 {
+  margin: 55px;
+}
+
+.ml-55 {
+  margin-left: 55px;
+}
+
+.mr-55 {
+  margin-right: 55px;
+}
+
+.mt-55 {
+  margin-top: 55px;
+}
+
+.mb-55 {
+  margin-bottom: 55px;
+}
+
+.mx-55 {
+  margin-left: 55px;
+  margin-right: 55px;
+}
+
+.my-55 {
+  margin-top: 55px;
+  margin-bottom: 55px;
+}
+
+.p-60 {
+  padding: 60px;
+}
+
+.pl-60 {
+  padding-left: 60px;
+}
+
+.pr-60 {
+  padding-right: 60px;
+}
+
+.pt-60 {
+  padding-top: 60px;
+}
+
+.pb-60 {
+  padding-bottom: 60px;
+}
+
+.px-60 {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.py-60 {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.m-60 {
+  margin: 60px;
+}
+
+.ml-60 {
+  margin-left: 60px;
+}
+
+.mr-60 {
+  margin-right: 60px;
+}
+
+.mt-60 {
+  margin-top: 60px;
+}
+
+.mb-60 {
+  margin-bottom: 60px;
+}
+
+.mx-60 {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.my-60 {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.p-65 {
+  padding: 65px;
+}
+
+.pl-65 {
+  padding-left: 65px;
+}
+
+.pr-65 {
+  padding-right: 65px;
+}
+
+.pt-65 {
+  padding-top: 65px;
+}
+
+.pb-65 {
+  padding-bottom: 65px;
+}
+
+.px-65 {
+  padding-left: 65px;
+  padding-right: 65px;
+}
+
+.py-65 {
+  padding-top: 65px;
+  padding-bottom: 65px;
+}
+
+.m-65 {
+  margin: 65px;
+}
+
+.ml-65 {
+  margin-left: 65px;
+}
+
+.mr-65 {
+  margin-right: 65px;
+}
+
+.mt-65 {
+  margin-top: 65px;
+}
+
+.mb-65 {
+  margin-bottom: 65px;
+}
+
+.mx-65 {
+  margin-left: 65px;
+  margin-right: 65px;
+}
+
+.my-65 {
+  margin-top: 65px;
+  margin-bottom: 65px;
+}
+
+.p-70 {
+  padding: 70px;
+}
+
+.pl-70 {
+  padding-left: 70px;
+}
+
+.pr-70 {
+  padding-right: 70px;
+}
+
+.pt-70 {
+  padding-top: 70px;
+}
+
+.pb-70 {
+  padding-bottom: 70px;
+}
+
+.px-70 {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.py-70 {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.m-70 {
+  margin: 70px;
+}
+
+.ml-70 {
+  margin-left: 70px;
+}
+
+.mr-70 {
+  margin-right: 70px;
+}
+
+.mt-70 {
+  margin-top: 70px;
+}
+
+.mb-70 {
+  margin-bottom: 70px;
+}
+
+.mx-70 {
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+.my-70 {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.p-75 {
+  padding: 75px;
+}
+
+.pl-75 {
+  padding-left: 75px;
+}
+
+.pr-75 {
+  padding-right: 75px;
+}
+
+.pt-75 {
+  padding-top: 75px;
+}
+
+.pb-75 {
+  padding-bottom: 75px;
+}
+
+.px-75 {
+  padding-left: 75px;
+  padding-right: 75px;
+}
+
+.py-75 {
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+.m-75 {
+  margin: 75px;
+}
+
+.ml-75 {
+  margin-left: 75px;
+}
+
+.mr-75 {
+  margin-right: 75px;
+}
+
+.mt-75 {
+  margin-top: 75px;
+}
+
+.mb-75 {
+  margin-bottom: 75px;
+}
+
+.mx-75 {
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
+.my-75 {
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+
+.p-80 {
+  padding: 80px;
+}
+
+.pl-80 {
+  padding-left: 80px;
+}
+
+.pr-80 {
+  padding-right: 80px;
+}
+
+.pt-80 {
+  padding-top: 80px;
+}
+
+.pb-80 {
+  padding-bottom: 80px;
+}
+
+.px-80 {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.py-80 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.m-80 {
+  margin: 80px;
+}
+
+.ml-80 {
+  margin-left: 80px;
+}
+
+.mr-80 {
+  margin-right: 80px;
+}
+
+.mt-80 {
+  margin-top: 80px;
+}
+
+.mb-80 {
+  margin-bottom: 80px;
+}
+
+.mx-80 {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.my-80 {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.p-85 {
+  padding: 85px;
+}
+
+.pl-85 {
+  padding-left: 85px;
+}
+
+.pr-85 {
+  padding-right: 85px;
+}
+
+.pt-85 {
+  padding-top: 85px;
+}
+
+.pb-85 {
+  padding-bottom: 85px;
+}
+
+.px-85 {
+  padding-left: 85px;
+  padding-right: 85px;
+}
+
+.py-85 {
+  padding-top: 85px;
+  padding-bottom: 85px;
+}
+
+.m-85 {
+  margin: 85px;
+}
+
+.ml-85 {
+  margin-left: 85px;
+}
+
+.mr-85 {
+  margin-right: 85px;
+}
+
+.mt-85 {
+  margin-top: 85px;
+}
+
+.mb-85 {
+  margin-bottom: 85px;
+}
+
+.mx-85 {
+  margin-left: 85px;
+  margin-right: 85px;
+}
+
+.my-85 {
+  margin-top: 85px;
+  margin-bottom: 85px;
+}
+
+.p-90 {
+  padding: 90px;
+}
+
+.pl-90 {
+  padding-left: 90px;
+}
+
+.pr-90 {
+  padding-right: 90px;
+}
+
+.pt-90 {
+  padding-top: 90px;
+}
+
+.pb-90 {
+  padding-bottom: 90px;
+}
+
+.px-90 {
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+.py-90 {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.m-90 {
+  margin: 90px;
+}
+
+.ml-90 {
+  margin-left: 90px;
+}
+
+.mr-90 {
+  margin-right: 90px;
+}
+
+.mt-90 {
+  margin-top: 90px;
+}
+
+.mb-90 {
+  margin-bottom: 90px;
+}
+
+.mx-90 {
+  margin-left: 90px;
+  margin-right: 90px;
+}
+
+.my-90 {
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+
+.p-95 {
+  padding: 95px;
+}
+
+.pl-95 {
+  padding-left: 95px;
+}
+
+.pr-95 {
+  padding-right: 95px;
+}
+
+.pt-95 {
+  padding-top: 95px;
+}
+
+.pb-95 {
+  padding-bottom: 95px;
+}
+
+.px-95 {
+  padding-left: 95px;
+  padding-right: 95px;
+}
+
+.py-95 {
+  padding-top: 95px;
+  padding-bottom: 95px;
+}
+
+.m-95 {
+  margin: 95px;
+}
+
+.ml-95 {
+  margin-left: 95px;
+}
+
+.mr-95 {
+  margin-right: 95px;
+}
+
+.mt-95 {
+  margin-top: 95px;
+}
+
+.mb-95 {
+  margin-bottom: 95px;
+}
+
+.mx-95 {
+  margin-left: 95px;
+  margin-right: 95px;
+}
+
+.my-95 {
+  margin-top: 95px;
+  margin-bottom: 95px;
+}
+
+.p-100 {
+  padding: 100px;
+}
+
+.pl-100 {
+  padding-left: 100px;
+}
+
+.pr-100 {
+  padding-right: 100px;
+}
+
+.pt-100 {
+  padding-top: 100px;
+}
+
+.pb-100 {
+  padding-bottom: 100px;
+}
+
+.px-100 {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.py-100 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.m-100 {
+  margin: 100px;
+}
+
+.ml-100 {
+  margin-left: 100px;
+}
+
+.mr-100 {
+  margin-right: 100px;
+}
+
+.mt-100 {
+  margin-top: 100px;
+}
+
+.mb-100 {
+  margin-bottom: 100px;
+}
+
+.mx-100 {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.my-100 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.center-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.column-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.nodemy .container {
+  width: 1170px;
+  display: flex;
+  padding: 70px 0;
+}
+.nodemy .card-column {
+  min-width: 175px;
+  display: flex;
+  padding: 22px 15px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background: white;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 0px 2.2127659321px 8.8510637283px 0px rgba(15, 15, 15, 0.08);
+  margin-right: 20px;
+}
+.nodemy .card-column img {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+}
+.nodemy .card-column p {
+  margin-top: 10px;
+}
+.nodemy .card-column p:nth-child(3) {
+  font-size: 11px;
+}
+.nodemy .navbar {
+  padding: 30px 60px;
+}
+.nodemy .navbar .logo {
+  padding: 8px 10px;
+  background: var(--primary);
+  border-radius: 12px;
+}
+.nodemy .navbar .logo svg {
+  fill: white;
+}
+.nodemy .navbar .info * {
+  margin: 0 5px;
+}
+.nodemy .navbar .info .avatar {
+  width: 33px;
+  height: 33px;
+}
+.nodemy .content .left-content {
+  position: relative;
+  padding-left: 135px;
+}
+.nodemy .content .left-content .hero-title + p {
+  width: 455px;
+  margin-top: 30px !important;
+}
+.nodemy .content .left-content button {
+  width: 265px;
+  height: 52px;
+  border-radius: 31px;
+  padding: 8px 8px 8px 44px;
+}
+.nodemy .content .left-content button i {
+  background: var(--primary);
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  color: white;
+}
+.nodemy .content .left-content .review {
+  width: 280px;
+  height: 95px;
+}
+.nodemy .content .left-content .review .star i {
+  color: #FFC83A;
+}
+.nodemy .content .left-content .review .score h3 {
+  color: var(--primary);
+}
+.nodemy .content .left-content .eliment {
+  position: absolute;
+  left: 0;
+  bottom: 150px;
+  transform: rotate(-19.16deg);
+}
+.nodemy .content .right-content {
+  position: relative;
+  height: 645px;
+}
+.nodemy .content .right-content .hero {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.nodemy .content .right-content .hero img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.nodemy .partner {
+  height: 168px;
+  background: #F4F5F9;
+}
+.nodemy .partner img:not(:last-child) {
+  margin-right: 40px;
+}
+.nodemy .trip-planning {
+  flex-direction: column;
+  height: 574px;
+}
+.nodemy .trip-planning .title {
+  text-align: center;
+}
+.nodemy .trip-planning .card-item {
+  width: 272px;
+  height: 236px;
+  padding: 21px 36px;
+  flex-direction: column;
+  text-align: center;
+  background: #EEF9F2;
+  margin: 0 15px;
+  border-radius: 12px;
+}
+.nodemy .trip-planning .card-item > i {
+  width: 48px;
+  height: 48px;
+  background: #58C27D;
+  color: white;
+  border-radius: 50%;
+  font-size: 25px;
+}
+.nodemy .list .list-item {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+.nodemy .list .list-item::before {
+  content: url("../../image/createTrip/Ellipse-2220.svg");
+  width: 20px;
+  height: 20px;
+  margin-right: 18px;
+  display: inline-block;
+}
+.nodemy .list .list-item + .sub {
+  margin-left: 38px;
+}
+.nodemy .book-steps .create-trip {
+  margin-right: 100px;
+  border-radius: 39px;
+  background: #FEE2B6;
+}
+.nodemy .book-steps .create-trip .your-trip {
+  border-radius: 30px;
+  overflow: hidden;
+}
+.nodemy .book-steps .create-trip .your-trip > div:nth-child(1) {
+  width: 363px;
+  background: var(--primary);
+}
+.nodemy .book-steps .create-trip .your-trip > div:nth-child(1) p, .nodemy .book-steps .create-trip .your-trip > div:nth-child(1) span {
+  color: white;
+}
+.nodemy .book-steps .create-trip .your-trip > div:nth-child(1) button {
+  color: inherit;
+  border-radius: 10px;
+  padding: 8px 10px 8px 16px;
+  background: white;
+  width: 250px;
+  height: 38px;
+}
+.nodemy .book-steps .create-trip .your-trip > div:nth-child(2) {
+  background: white;
+  font-size: 26px;
+}
+.nodemy .book-steps .create-trip .your-trip > div:nth-child(2) span {
+  font-size: 14px;
+}
+.nodemy .book-steps .create-trip .book-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.nodemy .book-steps .book-content {
+  width: 538px;
+}
+.nodemy .book-steps .book-content h1 {
+  margin-bottom: 25px;
+}
+.nodemy .book-steps .book-content .list {
+  padding-bottom: 26px;
+  border-bottom: 1px dashed #777E90;
+}
+.nodemy .book-steps .book-content .list .list-item::before {
+  content: url("../../image/createTrip/Ellipse-2220-xanh.svg");
+}
+.nodemy .book-steps .book-content .list + p {
+  font-style: italic;
+}
+.nodemy .book-steps .book-content .profile {
+  display: flex;
+}
+.nodemy .ez-trip {
+  background: #EAF0FF;
+}
+.nodemy .ez-trip .easy-trip {
+  width: 683px;
+  margin-right: 112px;
+}
+.nodemy .ez-trip .easy-trip > p {
+  margin-top: 24px;
+}
+.nodemy .ez-trip .easy-card {
+  width: 374px;
+  padding: 31px 24px 29px 24px;
+  background: white;
+  border-radius: 30px;
+  background: white;
+  box-shadow: 0px 14px 40px -15px rgba(15, 15, 15, 0.08);
+}
+.nodemy .ez-trip .easy-card .info {
+  justify-content: flex-start;
+}
+.nodemy .ez-trip .easy-card .info img {
+  margin-right: 17px;
+}
+.nodemy .how-work .block-left {
+  width: 646px;
+}
+.nodemy .how-work .block-left img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.nodemy .how-work .block-right {
+  width: 433px;
+}
+.nodemy .how-work .block-right i {
+  width: 60px;
+  min-width: 60px;
+  height: 60px;
+  min-height: 60px;
+  border-radius: 50%;
+  color: var(--primary);
+  font-size: 24px;
+  box-shadow: 0px 20px 80px 0px rgba(0, 0, 0, 0.12);
+  align-self: flex-start;
+}
+.nodemy .service {
+  background: var(--primary);
+}
+.nodemy .service .container {
+  width: 1029px;
+}
+.nodemy .service .container > h1, .nodemy .service .container > div:nth-child(2) > p {
+  text-align: center;
+  color: white;
+}
+.nodemy .service .container .card-column {
+  min-width: 231px;
+  align-items: center;
+  padding: 25px 28px 15px 28px;
+}
+.nodemy .service .container .card-column i {
+  color: white;
+  font-size: 24px;
+  background: var(--primary);
+  width: 44px;
+  height: 44px;
+  border-radius: 6px;
+}
+.nodemy .trip-plan {
+  background: rgba(251, 246, 199, 0.8);
+}
+.nodemy .trip-plan .container {
+  padding: 100px 0 0 0;
+}
+.nodemy .trip-plan .container .left-tripplan {
+  align-items: flex-start;
+  width: 530px;
+}
+.nodemy .trip-plan .container .left-tripplan h1 {
+  color: #353945;
+}
+.nodemy .trip-plan .container .left-tripplan button {
+  padding: 10px 30px;
+  border: none;
+  color: #FFFFFF;
+  background: var(--primary);
+  border-radius: 10px;
+}
+.nodemy .trip-plan .container .right-tripplan {
+  width: 440px;
+  height: 470px;
+  justify-content: flex-start;
+  position: relative;
+}
+.nodemy .trip-plan .container .right-tripplan .illustration {
+  align-items: flex-start;
+}
+.nodemy .trip-plan .container .right-tripplan .card-tripplan {
+  position: relative;
+  bottom: 54%;
+  border-radius: 24px 24px 0px 0px;
+  background: #FFF;
+}
+.nodemy .trip-plan .container .right-tripplan .card-tripplan .card-child {
+  padding: 5px 14px;
+  border-radius: 10px;
+  border: 0.5px solid #D3D3D3;
+  background: #FFF;
+  box-shadow: 0px 4px 10px 0px rgba(15, 15, 15, 0.12);
+}
+.nodemy .trip-plan .container .right-tripplan .card-tripplan .card-child > div.center-between > div.mr-10 {
+  padding: 8px;
+  border-radius: 9px;
+  background: #D8E3FF;
+}
+.nodemy .trip-plan .container .right-tripplan .card-tripplan .card-child > div.center-between > div:nth-child(2) > div:nth-child(2) span:nth-child(2) {
+  font-size: 8px;
+  font-weight: 500;
+  color: #777E90;
+}
+.nodemy .trip-plan .container .right-tripplan .card-tripplan .card-child > div.center-between > div:nth-child(2) > div:nth-child(2) span:nth-child(3) {
+  padding: 2px 7px 2px 6px;
+  font-size: 6px;
+  font-weight: 500;
+  border-radius: 3px;
+  background: #F4F5F9;
+  color: #FF6370;
+  margin-left: 5px;
+}
+.nodemy .trip-plan .container .right-tripplan .card-tripplan .card-child > div.fw-500 {
+  font-size: 7px;
+  padding: 6px 8px 6px 7px;
+  border-radius: 4px;
+  background: #FEE9DD;
+  color: #FA8F54;
+}
+.nodemy .footer .container {
+  width: 1100px;
+  padding: 0;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+.nodemy .footer .container .left-footer {
+  width: 268px;
+  justify-content: flex-start;
+}
+.nodemy .footer .container .left-footer div:first-child {
+  width: 120px;
+}
+.nodemy .footer .container .left-footer div:first-child div {
+  font-size: 20px;
+}
+.nodemy .footer .container .left-footer .search-input {
+  padding: 8px 8px 8px 26px;
+  border-radius: 24px;
+  border: 2px solid #E6E8EC;
+}
+.nodemy .footer .container .left-footer .search-input div {
+  color: #B1B5C3;
+}
+.nodemy .footer .container .left-footer .search-input i {
+  font-weight: bold;
+  color: #FFFFFF;
+  padding: 10px;
+  border-radius: 30px;
+  background: #3B71FE;
+}
+.nodemy .footer .container .services-footer {
+  width: 105px;
+}
+.nodemy .footer .container .services-footer .services-list {
+  justify-content: flex-start;
+}
+.nodemy .footer .container .services-footer .services-list li {
+  font-size: 16px;
+  font-weight: 400px;
+  color: #777E90;
+  list-style-type: none;
+  margin-top: 14px;
+}
+.nodemy .footer .container .support {
+  width: 140px;
+}
+.nodemy .footer .container .support .support-list {
+  justify-content: flex-start;
+}
+.nodemy .footer .container .support .support-list li {
+  font-size: 16px;
+  font-weight: 400px;
+  color: #777E90;
+  list-style-type: none;
+  margin-top: 14px;
+}
+.nodemy .footer .container .business {
+  width: 103px;
+}
+.nodemy .footer .container .business .business-list {
+  justify-content: flex-start;
+}
+.nodemy .footer .container .business .business-list li {
+  font-size: 16px;
+  font-weight: 400px;
+  color: #777E90;
+  list-style-type: none;
+  margin-top: 14px;
+}
+.nodemy .footer .container hr {
+  width: 1100px;
+  height: 1px;
+  background: #E6E8EC;
+}
+.nodemy .footer .container .copyright {
+  margin-right: 621px;
+}
+.nodemy .footer .container .copyright div {
+  color: #B1B5C3;
+}
+.nodemy .footer .container .social {
+  display: flex;
+  gap: 10px;
+}
+.nodemy .footer .container .input-email {
+  display: none;
+}
+.nodemy .footer .container .input-email .search-input {
+  padding: 8px 8px 8px 26px;
+  border-radius: 24px;
+  border: 2px solid #E6E8EC;
+}
+.nodemy .footer .container .input-email .search-input div {
+  color: #B1B5C3;
+}
+.nodemy .footer .container .input-email .search-input i {
+  font-weight: bold;
+  color: #FFFFFF;
+  padding: 10px;
+  border-radius: 30px;
+  background: #3B71FE;
+}
+
+@media screen and (max-width: 576px) {
+  .nodemy .container {
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 30px 20px;
+  }
+  .nodemy .navbar {
+    padding: 10px;
+  }
+  .nodemy .navbar #navbarSupportedContent {
+    order: 1;
+    width: 100%;
+    background: white;
+    z-index: 9;
+    left: 0;
+    top: 100%;
+    position: absolute;
+    padding: 0 22px;
+  }
+  .nodemy .navbar button.navbar-toggler {
+    font-size: 14px;
+    padding: 10px;
+  }
+  .nodemy .content .left-content {
+    padding-left: 20px;
+    padding-right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .nodemy .content .left-content .hero-title {
+    font-size: 16px;
+    width: 126px;
+    height: 28px;
+  }
+  .nodemy .content .left-content .hero-title + p {
+    display: none;
+  }
+  .nodemy .content .left-content button {
+    height: auto;
+    border-radius: 25px;
+    padding: 3px 10px;
+    width: 100%;
+  }
+  .nodemy .content .left-content button h4 {
+    font-size: 12px;
+  }
+  .nodemy .content .left-content .review {
+    display: none;
+  }
+  .nodemy .content .left-content .eliment {
+    width: 40%;
+    bottom: 0 !important;
+  }
+  .nodemy .content .right-content {
+    height: 206px;
+  }
+  .nodemy .partner {
+    height: 58px;
+    overflow: scroll;
+    justify-content: flex-start;
+  }
+  .nodemy .trip-planning {
+    flex-wrap: nowrap;
+    height: 402px;
+  }
+  .nodemy .trip-planning .title h1 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .nodemy .trip-planning .title p {
+    margin-top: 16px;
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .nodemy .trip-planning .cards {
+    margin-top: 30px;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow: scroll;
+  }
+  .nodemy .book-steps {
+    flex-wrap: wrap;
+  }
+  .nodemy .book-steps .create-trip {
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+  }
+  .nodemy .book-steps .create-trip .your-trip > div:nth-child(1) {
+    width: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .nodemy .book-steps .book-content {
+    padding: 20px 0;
+  }
+  .nodemy .ez-trip .easy-trip {
+    order: 1;
+    width: 100%;
+    margin-right: unset;
+  }
+  .nodemy .ez-trip .easy-trip > h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .nodemy .ez-trip .easy-trip > p {
+    font-size: 12px;
+    margin-top: 14px;
+  }
+  .nodemy .ez-trip .easy-trip > div {
+    margin-top: 20px;
+    overflow: scroll;
+  }
+  .nodemy .ez-trip .easy-card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .nodemy .how-work .block-right .mt-25 {
+    margin-top: 14px;
+  }
+  .nodemy .how-work .block-right .mt-40 {
+    margin-top: 26px;
+  }
+  .nodemy .how-work .block-right .ml-25 {
+    margin-left: 18px;
+  }
+  .nodemy .how-work .block-right i {
+    width: 45px;
+    min-width: 45px;
+    height: 45px;
+    min-height: 45px;
+    border-radius: 50%;
+  }
+  .nodemy .service .container {
+    width: 100%;
+  }
+  .nodemy .service .container h1 {
+    font-size: 30px;
+  }
+  .nodemy .service .container > p {
+    font-size: 12px;
+  }
+  .nodemy .service .container .list-card {
+    margin: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .nodemy .service .container .list-card .card-column {
+    margin-top: 24px;
+    margin-right: 0;
+    padding: 30px 48px;
+    width: 270px;
+  }
+  .nodemy .trip-plan .container {
+    padding: 24px 20px 0 20px;
+  }
+  .nodemy .trip-plan .container .left-tripplan {
+    margin-bottom: 43px;
+  }
+  .nodemy .trip-plan .container .left-tripplan h1 {
+    font-size: 24px;
+    line-height: 42px;
+  }
+  .nodemy .trip-plan .container .left-tripplan div.t-18 {
+    font-size: 10px;
+    margin: 10px 0;
+    line-height: 20px;
+  }
+  .nodemy .footer .container {
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 90%;
+    padding: 30px 24px;
+  }
+  .nodemy .footer .container hr {
+    display: none;
+  }
+  .nodemy .footer .container .left-footer {
+    width: 100%;
+    padding-bottom: 0;
+  }
+  .nodemy .footer .container .left-footer .search-input {
+    display: none;
+  }
+  .nodemy .footer .container .left-footer div.t-16 {
+    width: 268px;
+    margin: 24px 0;
+  }
+  .nodemy .footer .container .services-footer {
+    width: 100%;
+    order: 2;
+    padding-top: 24px;
+    padding-bottom: 30px;
+  }
+  .nodemy .footer .container .support {
+    width: 100%;
+    order: 3;
+    padding-bottom: 30px;
+  }
+  .nodemy .footer .container .business {
+    width: 100%;
+    order: 4;
+    padding-bottom: 40px;
+  }
+  .nodemy .footer .container .copyright {
+    margin: 0;
+    order: 6;
+  }
+  .nodemy .footer .container .social {
+    order: 1;
+    padding: 0;
+  }
+  .nodemy .footer .container .input-email {
+    width: 80%;
+    display: block;
+    order: 5;
+  }
+}/*# sourceMappingURL=tripPlanner.css.map */
